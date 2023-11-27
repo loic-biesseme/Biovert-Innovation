@@ -1,0 +1,171 @@
+@import url("font/YsabeauInfant-Regular.ttf");
+@import url("font/Philosopher-Regular.ttf");
+/* font-family: 'Ysabeau Infant', */
+body {
+    font-family: "Ysabeau Infant";
+    /* text-align: justify; */
+}
+.text-justify {
+    text-align: justify;
+}
+.text-left {
+    text-align: left;
+}
+.fm-yinfant {
+    font-family: "Ysabeau Infant" !important;
+}
+.fm-philo {
+    font-family: "Philosopher" !important;
+}
+.rounded-12 {
+    border-radius: 12px/12px;
+}
+.section-1-home {
+    background-image: url("../../img/tracteur-et-chauffeur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 685px;
+}
+.section-1-contact {
+    background-image: url("../../img/champ-laboure-avec-tracteur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 685px;
+}
+.section-1-about {
+    background-image: url("../../img/champ-laboure-avec-tracteur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 685px;
+}
+.section-1-services {
+    background-image: url("../../img/tracteur-vue-profil-supperieur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 685px;
+}
+.section-1-equipements {
+    background-image: url("../../img/tracteur-canada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 685px;
+}
+.section-1-galerie {
+    background-image: url("../../img/tracteur-vue-arriere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 685px;
+}
+
+.section-1-home .overlay,
+.section-1-services .overlay,
+.section-1-galerie .overlay,
+.section-1-equipements .overlay,
+.section-1-contact .overlay,
+.section-1-about .overlay {
+    background: linear-gradient(to top, rgba(230, 230, 230, 0), rgba(34, 29, 29, 0.7) 100%);
+    /* background: linear-gradient(to top, rgba(230, 230, 230, 0), rgba(250, 250, 250, 0.7) 100%); */
+    /* background: linear-gradient(180deg, #eee, #fff 100px, #fff); */
+}
+.section-1-home .overlay-reverse,
+.section-1-services .overlay-reverse,
+.section-1-galerie .overlay-reverse,
+.section-1-equipements .overlay-reverse,
+.section-1-about .overlay-reverse {
+    background: linear-gradient(to bottom, rgba(230, 230, 230, 0), rgba(34, 29, 29, 0.7) 60%);
+}
+.green {
+    color: rgb(18, 230, 18);
+    fill: rgb(18, 230, 18);
+}
+.blue {
+    color: rgb(0, 0, 255);
+    fill: rgb(0, 0, 255);
+}
+.red {
+    color: rgb(255, 0, 0);
+    fill: rgb(255, 0, 0);
+}
+.pur-green {
+    color: rgb(0, 222, 0);
+    fill: rgb(0, 222, 0);
+}
+.green-link:hover,
+.green-link-active {
+    color: rgb(18, 230, 18) !important;
+}
+.btn-green {
+    background-color: rgb(18, 230, 18) !important;
+}
+.btn-green:hover {
+    background-color: rgb(11, 161, 11) !important;
+    color: white !important;
+}
+.bg-grid {
+    background-color: #3a363627;
+}
+
+.border-green {
+    border: 2px solid rgb(18, 230, 18);
+    border-radius: 10px/10px;
+    /* border-color: rgb(18, 230, 18) !important; */
+}
+.section-3-home {
+    background-image: url("../../img/materiel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-4-services,
+.section-3-galerie,
+.section-3-equipements {
+    background-image: url("../../img/tracteur-vue-contre-plonge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-4-services .overlay,
+.section-3-galerie .overlay,
+.section-3-equipements .overlay {
+    background: linear-gradient(200deg, rgba(20, 17, 17, 0.3), rgba(20, 17, 17, 0.92) 100%);
+}
+.section-3-home .overlay {
+    background: linear-gradient(225deg, rgba(10, 10, 10, 0.1), rgba(20, 17, 17, 0.8), rgba(20, 17, 17, 0.92) 100%);
+}
+.section-5-home,
+.section-3-about {
+    background-image: url("../../img/tracteur-vue-contre-plonge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-5-home .overlay,
+.section-3-about .overlay {
+    background: linear-gradient(195deg, rgba(10, 10, 10, 0.1), rgba(20, 17, 17, 0.8), rgba(20, 17, 17, 0.92) 100%);
+}
+.fs-17 {
+    font-size: 17px;
+}
+.swiper {
+    width: 100%;
+    height: 430px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
